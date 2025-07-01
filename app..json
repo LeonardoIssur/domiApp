@@ -24,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyDb_x4UQmxxyW2Xw8e2J_MPukXHyv6jO6o",
+      "firebaseAuthDomain": "dmapp-c8fc0.firebaseapp.com",
+      "firebaseProjectId": "dmapp-c8fc0",
+      "firebaseStorageBucket": "dmapp-c8fc0.firebasestorage.app",
+      "firebaseMessagingSenderId": "853593093268",
+      "firebaseAppId": "1:853593093268:web:3c7ca8b4a6ae17c76db081"
     }
   }
 }
