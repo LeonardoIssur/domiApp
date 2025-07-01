@@ -7,7 +7,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bienvenido!</Text>
+      <Text style={styles.title}>Bienvenidos ...!</Text>
       <TouchableOpacity style={styles.button} onPress={logout}><Text style={styles.buttonText}>Cerrar sesión</Text></TouchableOpacity>
     </View>
   );
