@@ -26,12 +26,12 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "firebaseApiKey": "AIzaSyDb_x4UQmxxyW2Xw8e2J_MPukXHyv6jO6o",
-      "firebaseAuthDomain": "dmapp-c8fc0.firebaseapp.com",
-      "firebaseProjectId": "dmapp-c8fc0",
-      "firebaseStorageBucket": "dmapp-c8fc0.firebasestorage.app",
-      "firebaseMessagingSenderId": "853593093268",
-      "firebaseAppId": "1:853593093268:web:3c7ca8b4a6ae17c76db081"
+      "firebaseApiKey": "process.env.EXPO_PUBLIC_FIREBASE_API_KEY",
+      "firebaseAuthDomain": "process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN",
+      "firebaseProjectId": "process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID",
+      "firebaseStorageBucket": "process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET",
+      "firebaseMessagingSenderId": "process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID",
+      "firebaseAppId": "process.env.EXPO_PUBLIC_FIREBASE_APP_ID"
     }
   }
 }
